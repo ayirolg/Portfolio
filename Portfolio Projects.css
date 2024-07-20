@@ -1,0 +1,103 @@
+*{
+            padding: 0;
+            margin: 0;
+            box-sizing: border box;
+        }
+
+navbar{
+            background-color: white;
+        }
+.nav-link{
+            color: #112D4E;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            text-decoration: none;
+        }
+.nav-link.active {
+		    background-color: #112D4E;
+		    color: #fff; 
+		}
+.nav-link:hover{
+            color:white;
+            background-color: #112D4E;
+        }
+.navbar-brand{
+            color: #112D4E;
+            font-size: 1.25rem;
+            font-weight: 800;
+            text-decoration: none;
+        }
+body{
+            background-color: #FFE2E2;
+        }
+
+#health_stack{
+			border-bottom: 3px solid rgb(233, 20, 109, 1.0);
+			width: 8rem;
+			color: #112D4E;
+		}
+#recruit_mate{
+			border-bottom: 3px solid rgb(233, 20, 109, 1.0);
+			width: 8rem;
+			color: #112D4E;
+		}
+
+
+#logo{
+			width:70px;
+			height:70px;
+		}
+.bt1:hover{
+			background-color:rgb(233, 20, 109, 1.0);
+			color: white;
+			text-decoration: none;
+		}
+.bt1{
+			height: 40px; 
+			width: 100px; 
+			background-color: transparent ; 
+			color: rgb(233, 20, 109, 1.0) important; 
+			border:1.5px solid rgb(233, 20, 109, 1.0); 
+			outline: none; 
+			border-radius: 5px;
+			font-weight:bold;
+		}
+
+.container{
+				width: 100%;
+				height: 100%;
+				box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.5);
+	            border-radius: 10px; 
+	            margin:0 auto;		
+	        }
+
+.rose_text{
+	color: rgb(233, 20, 109, 1.0);
+	text-decoration: none;
+}
+
+a:hover{
+	color:white;
+	text-decoration: none;
+}
+
+
+
+#carouselExampleIndicators{
+    background-color: transparent;
+    outline: none;
+    border: none; 
+}
+
+.carousel-indicators button {
+    width: 10px; 
+    height: 10px; 
+    background-color: #BB9AB1; 
+    border-radius: 75%; 
+    border: none;
+}
+
+.carousel-indicators .active {
+    background-color: #86469C; /* Darker color for active indicator */
+}

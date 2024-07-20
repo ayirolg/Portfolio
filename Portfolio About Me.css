@@ -1,0 +1,164 @@
+*{
+            padding: 0;
+            margin: 0;
+            box-sizing: border box;
+        }
+
+navbar{
+            background-color: white;
+        }
+.nav-link{
+            color: #112D4E;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            text-decoration: none;
+        }
+.nav-link.active {
+    background-color: #112D4E;
+    color: #fff; 
+}
+.nav-link:hover{
+            color:white;
+            background-color: #112D4E;
+        }
+.navbar-brand{
+            color: #112D4E;
+            font-size: 1.25rem;
+            font-weight: 800;
+            text-decoration: none;
+        }
+body{
+            background-color: #FFE2E2;
+        }
+.bt2{
+            height: 3rem; 
+            width: 10rem; 
+            background-color: transparent ; 
+            color: rgb(233, 20, 109, 1.0); 
+            border:1.5px solid rgb(233, 20, 109, 1.0); 
+            outline: none; 
+            border-radius: 5px;
+            font-weight:bold;
+}
+
+.bt2:hover{
+            background-color:rgb(233, 20, 109, 1.0);
+            color: white;
+}
+
+#logo{
+            width:70px;
+            height:70px;
+        }
+#home{
+                box-shadow: 10px 10px 20px 1px rgba(233, 20, 109, 0.5);
+                border-radius: 10px; 
+                margin:0 auto;
+            }     
+
+.bgimg{
+                background: url("D:/Full stack Developement/HTML/Bootstrap/Portfolio/crop-removebg-preview.png")no-repeat right;
+                background-size: contain;
+                width: 70%;
+                height:100vh ;
+}            
+.bio-card{
+	width: 50%;
+	background-color: #F6F6F6;
+	color: #112D4E;
+}
+.card-header {
+    background-color: #FFC7C7; 
+    color: white;
+}
+
+
+table{
+	margin-bottom: 0px;
+	color: #112D4E;
+}
+
+.table td, .table th {
+            padding: 1rem;
+            vertical-align: middle;
+        }
+
+tr{
+	border: 1.5px solid  rgb(233, 20, 109, 1.0);
+	outline: none;
+	border-radius: 10px;
+}
+
+.section-heading{
+	  font-family: "Dancing Script", cursive;
+      font-size: 2rem;
+	  font-optical-sizing: auto;
+	  font-weight: bold;
+	  font-style: normal;
+	  margin: 1rem 0px;
+      font-color: #112D4E;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+            background-color: #F8E8EE; 
+        }
+.table-striped tbody tr:nth-of-type(even) {
+            background-color: #FFFFFF; }
+
+.card {
+            width: 100%;
+            margin: 0 auto;
+        }
+.progress-bar {
+            background-color: #FC5185;
+        }
+.accordion {
+            width: 90%;
+            margin: 0 auto;
+            align-items: center;
+        }
+.accordion-item {
+            margin-bottom: 1rem;
+        }
+.accordion-button {
+            display: block;
+            width: 100%;
+            text-align: center;
+            background-color: rgb(233, 20, 109, 1.0);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 1.25rem;
+            font-weight: bold;
+            cursor: pointer;
+            outline: none;
+            
+        }
+.accordion-button.collapsed {
+            background-color: rgb(233, 20, 109, 1.0);
+        }
+.accordion-button:hover {
+            background-color: rgb(233, 20, 109, 1.0);
+        }
+.accordion-body {
+            background-color: #f8f9fa;
+        }
+
+
+.badge-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: rgba(233, 20, 109, 0.2);
+    color: rgb(233, 20, 109, 1.0);
+    margin-left: 5px;
+}
+
+.badge-icon:hover {
+    background-color: rgb(233, 20, 109, 1.0);
+    color: white;
+}
